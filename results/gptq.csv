@@ -1,0 +1,14 @@
+model,method,bits,group_size,desc_act,seed,ppl,weights_gb,quant_sec,eval_sec
+tinyllama,gptq,4,128,False,0,8.1643,0.767,470.9,52.7
+opt-125m,gptq,4,128,True,0,29.254,0.125,82.3,10.7
+tinyllama,gptq,4,128,True,0,7.9812,0.767,462.7,52.3
+tinyllama,gptq,4,128,True,1,8.0351,0.767,463.0,53.8
+tinyllama,gptq,4,128,True,2,8.0158,0.767,470.9,54.1
+opt-125m,gptq,4,128,False,0,31.6229,0.125,86.7,11.0
+opt-125m,gptq,4,128,True,1,29.1756,0.125,83.5,14.4
+opt-125m,gptq,4,128,True,2,29.3763,0.125,80.2,10.5
+opt-350m,gptq,4,128,True,0,23.1346,0.216,445.9,19.6
+tinyllama,gptq,4,64,True,0,7.9452,0.786,475.9,53.8
+llama3-8b,gptq,4,128,True,0,6.4283,5.733,2040,265.1
+phi3-mini,gptq,4,128,True,0,6.3828,2.28,1097.7,200.3
+

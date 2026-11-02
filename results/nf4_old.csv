@@ -1,0 +1,7 @@
+model,method,quant_type,double_quant,ppl,peak_vram_gb,eval_sec
+opt-125m,bnb,nf4,True,29.2865,0.55,7.5
+opt-125m,bnb,nf4,False,29.2569,0.6,5.9
+opt-125m,bnb,fp4,True,31.5962,0.64,5.2
+tinyllama,bnb,nf4,True,8.0751,1.68,83.6
+tinyllama,bnb,nf4,False,8.0755,2.24,81.6
+tinyllama,bnb,fp4,True,9.3512,2.75,85.0

@@ -1,0 +1,42 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# --- Сохранённые квантованные модели ---
+quantized/
+
+# --- Веса и кэши ---
+*.safetensors
+*.bin
+*.pt
+*.pth
+.cache/
+hf_cache/
+
+# --- Логи прогонов ---
+logs/
+*.log
+nohup.out
+
+# --- Тяжёлые промежуточные результаты ---
+results/act_stats/
+results/hidden_stats/
+results/actquant_details/
+
+# --- LaTeX (если добавите report_tex) ---
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+
+# --- Системное и редакторы ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
+*:Zone.Identifier

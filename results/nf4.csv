@@ -1,0 +1,13 @@
+model,method,quant_type,double_quant,ppl,weights_gb,peak_vram_gb,eval_sec
+opt-125m,bnb,nf4,True,29.2865,0.125,0.55,5.8
+opt-125m,bnb,nf4,False,29.2569,0.129,0.55,8.3
+opt-125m,bnb,fp4,True,31.5962,0.125,0.55,7.1
+tinyllama,bnb,nf4,True,8.0751,1.041,1.68,83.6
+tinyllama,bnb,nf4,False,8.0755,1.086,1.73,83.7
+tinyllama,bnb,fp4,True,9.3512,1.041,1.68,84.8
+llama3-8b,bnb,nf4,True,6.5621,5.703,6.78,263.8
+llama3-8b,bnb,nf4,False,6.5628,6.028,7.11,262.6
+llama3-8b,bnb,fp4,True,6.932,5.703,6.78,278.8
+phi3-mini,bnb,nf4,True,6.4433,2.264,3.4,205.3
+phi3-mini,bnb,nf4,False,6.4423,2.433,3.56,206.4
+phi3-mini,bnb,fp4,True,6.9071,2.264,3.4,207.8
